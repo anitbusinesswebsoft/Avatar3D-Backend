@@ -9,8 +9,8 @@ const characterRoutes = require("./routes/character")
 const categorySchema = require("./models/category")
 const colorSchema = require("./models/categoryColor")
 
-// const mongouri = 'mongodb://127.0.0.1:27017/myFirstDatabase';
-const mongouri = 'mongodb://127.0.0.1:27017/AvatarDatabase';
+const mongouri = 'mongodb+srv://anitbusinesswebsoft:anitbusinesswebsoft@avatar.kwkzjcs.mongodb.net/';
+// const mongouri = 'mongodb://127.0.0.1:27017/AvatarDatabase';
 try {
     mongoose.connect(mongouri, {
         useUnifiedTopology: true,
